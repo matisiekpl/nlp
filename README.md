@@ -89,7 +89,7 @@ analysis('https://www.ic.unicamp.br/~stolfi/voynich/mirror/reeds/docs/FSG.txt', 
 
 1. Zgodność z Prawem Zipfa
 Po obliczeniu wykresu poniżej, można stwierdzić, że tekst jest zgodny z prawem Zipfa.
-![Prawo zipfa](fsg.png)
+![Prawo zipfa](https://raw.githubusercontent.com/matisiekpl/nlp/master/fsg.png)
 2. Tablica N-Gramów
 ```
 Analysis for text: Manuskrypt Wojnicza
@@ -108,7 +108,7 @@ TOE TOE: 7
 ...
 ```
 
-[Cały plik](fsg-ngrams.txt)
+[Cały plik](https://raw.githubusercontent.com/matisiekpl/nlp/master/fsg-ngrams.txt)
 
 3. Tablica kolokacji (graf sąsiedztwa)
 ```
@@ -130,7 +130,7 @@ TOHAM occurs in 5 collocations
 O2OHZOR occurs in 1 collocations
 ```
 
-[Cały plik](fsg-collocations.txt)
+[Cały plik](https://raw.githubusercontent.com/matisiekpl/nlp/master/fsg-collocations.txt)
 
 
 ## Analiza hiszpańskiego dzieła
@@ -138,7 +138,7 @@ O2OHZOR occurs in 1 collocations
 analysis('https://gist.githubusercontent.com/ismaproco/6781d297ee65c6a707cd3c901e87ec56/raw/20d3520cd7c53d99215845375b1dca16ac827bd7/gabriel_garcia_marquez_cien_annos_soledad.txt', 'soledad.txt','Sto lat samotności')
 ```
 Po obliczeniu wykresu poniżej, można stwierdzić, że tekst jest zgodny z prawem Zipfa.
-![Prawo zipfa](soledad.png)
+![Prawo zipfa](https://raw.githubusercontent.com/matisiekpl/nlp/master/soledad.png)
 
 2. Tablica N-Gramów
 ```
@@ -170,7 +170,7 @@ Aureliano Segundo: 197
 ...
 ```
 
-[Cały plik](fsg-ngrams.txt)
+[Cały plik](https://raw.githubusercontent.com/matisiekpl/nlp/master/fsg-ngrams.txt)
 
 3. Tablica kolokacji (graf sąsiedztwa)
 ```
@@ -194,4 +194,4 @@ estaba. occurs in 1 collocations
 a occurs in 768 collocations
 ```
 
-[Cały plik](fsg-collocations.txt)
+[Cały plik](https://raw.githubusercontent.com/matisiekpl/nlp/master/fsg-collocations.txt)
