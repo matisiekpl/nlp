@@ -131,3 +131,67 @@ O2OHZOR occurs in 1 collocations
 ```
 
 [Cały plik](fsg-collocations.txt)
+
+
+## Analiza hiszpańskiego dzieła
+```python
+analysis('https://gist.githubusercontent.com/ismaproco/6781d297ee65c6a707cd3c901e87ec56/raw/20d3520cd7c53d99215845375b1dca16ac827bd7/gabriel_garcia_marquez_cien_annos_soledad.txt', 'soledad.txt','Sto lat samotności')
+```
+Po obliczeniu wykresu poniżej, można stwierdzić, że tekst jest zgodny z prawem Zipfa.
+![Prawo zipfa](soledad.png)
+
+2. Tablica N-Gramów
+```
+=> 2-grams:
+de la: 1308 
+en el: 752 
+en la: 693 
+a la: 484 
+de los: 445 
+de su: 419 
+de que: 394 
+José Arcadio: 358 
+que se: 320 
+con la: 283 
+la casa: 261 
+por la: 254 
+de las: 234 
+que no: 226 
+por el: 217 
+y la: 215 
+en un: 213 
+en que: 209 
+a los: 209 
+años de: 201 
+y el: 199 
+que le: 199 
+coronel Aureliano: 198 
+Aureliano Segundo: 197
+...
+```
+
+[Cały plik](fsg-ngrams.txt)
+
+3. Tablica kolokacji (graf sąsiedztwa)
+```
+sobrellevar occurs in 2 collocations
+romanzas occurs in 1 collocations
+período occurs in 1 collocations
+consistir occurs in 1 collocations
+quizá occurs in 1 collocations
+ahorros. occurs in 1 collocations
+rescatado occurs in 2 collocations
+fierro occurs in 1 collocations
+pudrirse occurs in 1 collocations
+construidos occurs in 1 collocations
+primer occurs in 39 collocations
+contorno. occurs in 1 collocations
+viajero occurs in 1 collocations
+desamparo occurs in 4 collocations
+definidas occurs in 1 collocations
+desembarazaba occurs in 1 collocations
+estaba. occurs in 1 collocations
+a occurs in 768 collocations
+```
+
+[Cały plik](fsg-collocations.txt)
