@@ -90,3 +90,44 @@ analysis('https://www.ic.unicamp.br/~stolfi/voynich/mirror/reeds/docs/FSG.txt', 
 1. Zgodność z Prawem Zipfa
 Po obliczeniu wykresu poniżej, można stwierdzić, że tekst jest zgodny z prawem Zipfa.
 ![Prawo zipfa](fsg.png)
+2. Tablica N-Gramów
+```
+Analysis for text: Manuskrypt Wojnicza
+----------------
+N-GRAMS analysis
+=> 2-grams:
+TOE 8AM: 22
+8AM 8AM: 10
+TOR 8AM: 8
+TOR TOE: 8
+8AM HZG: 8
+TG 8AM: 8
+8AM HZOR: 8
+TOE TOE: 7
+8AM TOR: 7
+...
+```
+
+[Cały plik](fsg-ngrams.txt)
+
+3. Tablica kolokacji (graf sąsiedztwa)
+```
+DTRRR occurs in 1 collocations
+ODAN8 occurs in 1 collocations
+TOTG occurs in 2 collocations
+OHCCOE occurs in 1 collocations
+TG occurs in 54 collocations
+OHTO8G occurs in 2 collocations
+O8AIM occurs in 1 collocations
+SDCCO occurs in 1 collocations
+HTOE occurs in 7 collocations
+SOHZG occurs in 7 collocations
+O8SC occurs in 1 collocations
+DTCOE occurs in 3 collocations
+TOM occurs in 10 collocations
+2OHTAM occurs in 1 collocations
+TOHAM occurs in 5 collocations
+O2OHZOR occurs in 1 collocations
+```
+
+[Cały plik](fsg-collocations.txt)
